@@ -25,7 +25,7 @@ Dependencies:
 | Package | Version |
 |---------|---------|
 | Python  | 3.10.19 |
-| PyTorch | 2.4.1   |
+| PyTorch | 2.4.1  |
 | NumPy   | 1.26.4  |
 
 ```
