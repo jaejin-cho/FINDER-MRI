@@ -25,8 +25,8 @@ Dependencies:
 | Package | Version |
 |---------|---------|
 | Python  | 3.10.19 |
-| PyTorch | 2.4.1 |
-| NumPy   | 1.26.4 |
+| PyTorch | 2.4.1   |
+| NumPy   | 1.26.4  |
 
 ```
 pip install torch==2.4.1 numpy==1.26.4 scipy matplotlib
@@ -49,3 +49,4 @@ target_diffs = [0, 8, 16, 24]  # Diffusion direction indices
 The notebook saves results to a `.mat` file containing:
 - `im_recon`: Reconstructed complex images `(n_diff, 2, nx, ny)`
 - `im_field`: Estimated field maps `(n_diff, nx, ny)`
+
