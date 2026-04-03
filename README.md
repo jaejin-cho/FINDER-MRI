@@ -43,7 +43,7 @@ res_name   = save_path + 'results/FINDER.mat'  # Output path
 data_path  = './data'                           # Data directory
 
 target_slice = 16               # Slice index to reconstruct
-target_diffs = [0, 15, 25, 31]  # Diffusion direction indices
+target_diffs = [0, 16, 25, 31]  # Diffusion direction indices
 ```
 
 The notebook saves results to a `.mat` file containing:
